@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "math-adventure-1",
+      "description": "Cover for 'The Magical Math Adventure'",
+      "imageUrl": "https://images.unsplash.com/photo-1640684518379-b1cae1002131?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYXJ0b29uJTIwbnVtYmVyc3xlbnwwfHx8fDE3NjkwMjQzOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon numbers"
+    },
+    {
+      "id": "science-explorer-2",
+      "description": "Cover for 'Science Explorers: The Human Body'",
+      "imageUrl": "https://images.unsplash.com/photo-1758876569703-ea9b21463691?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzY2llbmNlJTIwdGV4dGJvb2t8ZW58MHx8fHwxNzY4OTg3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science textbook"
+    },
+    {
+      "id": "history-time-3",
+      "description": "Cover for 'History Time Travelers: Ancient Egypt'",
+      "imageUrl": "https://images.unsplash.com/photo-1662567797712-7f32376df4de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlZ3lwdGlhbiUyMHB5cmFtaWRzfGVufDB8fHx8MTc2OTAyNDM5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "egyptian pyramids"
+    },
+    {
+      "id": "reading-fun-4",
+      "description": "Cover for 'Fun with Phonics'",
+      "imageUrl": "https://images.unsplash.com/photo-1565843248736-8c41e6db117b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMHJlYWRpbmd8ZW58MHx8fHwxNzY5MDAwNDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children reading"
+    },
+    {
+      "id": "galaxy-math-5",
+      "description": "Cover for 'Galaxy Quest: A Math Odyssey'",
+      "imageUrl": "https://images.unsplash.com/photo-1708257105952-ff45589268a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcGFjZSUyMHBsYW5ldHN8ZW58MHx8fHwxNzY5MDI0Mzk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "space planets"
+    },
+    {
+      "id": "dino-discovery-6",
+      "description": "Cover for 'Dino Discovery'",
+      "imageUrl": "https://images.unsplash.com/photo-1728848447975-dc7f2aad30af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwZGlub3NhdXJ8ZW58MHx8fHwxNzY5MDExNTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon dinosaur"
+    },
+    {
+      "id": "castle-tales-7",
+      "description": "Cover for 'Tales of the Brave Knights'",
+      "imageUrl": "https://images.unsplash.com/photo-1588278183316-7c7a88cc683d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZWRpZXZhbCUyMGNhc3RsZXxlbnwwfHx8fDE3Njg5NjIzNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medieval castle"
+    },
+    {
+      "id": "jungle-journey-8",
+      "description": "Cover for 'Jungle Journey'",
+      "imageUrl": "https://images.unsplash.com/photo-1545137418-4f1e60820cd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxqdW5nbGUlMjBhbmltYWxzfGVufDB8fHx8MTc2OTAyNDM5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jungle animals"
+    }
+  ]
 }
