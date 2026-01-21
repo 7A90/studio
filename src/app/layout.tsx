@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'PrimaryReads',
+  title: 'School Library',
   description: 'A library of primary school books with links to Google Drive.',
 };
 
