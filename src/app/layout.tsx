@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'School Library',
-  description: 'A library of primary school books with links to Google Drive.',
+  title: 'مكتبتي المحمولة',
+  description: 'كتابك في أي وقت وفي كل مكان.',
 };
 
 export default function RootLayout({

@@ -9,7 +9,7 @@ export function Header() {
           <a className="mr-6 flex items-center space-x-2" href="/">
             <Library className="h-6 w-6 text-primary" />
             <span className="font-bold font-headline sm:inline-block">
-              School Library
+              مكتبتي المحمولة
             </span>
           </a>
         </div>

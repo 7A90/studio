@@ -43,7 +43,7 @@ export function BookSummaryDialog({ book }: { book: BookWithImage }) {
     <Dialog onOpenChange={(open) => !open && (setSummary(''), setIsLoading(false))}>
       <DialogTrigger asChild>
         <Button className="w-full bg-primary/90 hover:bg-primary text-primary-foreground">
-          <BookOpenCheck className="mr-2 h-4 w-4" /> View Details
+          <BookOpenCheck className="mr-2 h-4 w-4" /> تصفح الآن
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">

@@ -12,15 +12,17 @@ import {
 import { BookCard } from './book-card';
 import { gradeLevels, subjects } from '@/lib/books';
 import type { BookWithImage } from './book-card';
-import { Search, Book, Microscope, Landmark, Scale } from 'lucide-react';
+import { Search, Book, Microscope, Landmark, Scale, Palette, Globe } from 'lucide-react';
 
 type Subject = (typeof subjects)[number];
 
 const subjectIcons: Record<Subject, React.ElementType> = {
-  Reading: Book,
-  Science: Microscope,
-  History: Landmark,
-  Math: Scale,
+  'قراءة': Book,
+  'علوم': Microscope,
+  'تاريخ': Landmark,
+  'رياضيات': Scale,
+  'فنون': Palette,
+  'جغرافيا': Globe,
 };
 
 export function BookCatalog({ books }: { books: BookWithImage[] }) {
@@ -48,7 +50,7 @@ export function BookCatalog({ books }: { books: BookWithImage[] }) {
           <div className="relative md:col-span-1">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <Input
-              placeholder="Search by title..."
+              placeholder="ابحث عن كتاب"
               className="pl-9"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -60,10 +62,10 @@ export function BookCatalog({ books }: { books: BookWithImage[] }) {
               <SelectValue placeholder="Filter by grade" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Grades</SelectItem>
+              <SelectItem value="all">كل المستويات</SelectItem>
               {gradeLevels.map((grade) => (
                 <SelectItem key={grade} value={grade}>
-                  Grade {grade}
+                  المستوى {grade}
                 </SelectItem>
               ))}
             </SelectContent>
@@ -73,13 +75,13 @@ export function BookCatalog({ books }: { books: BookWithImage[] }) {
               <SelectValue placeholder="Filter by subject" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Subjects</SelectItem>
+              <SelectItem value="all">كل المواد</SelectItem>
               {subjects.map((subject) => {
                 const Icon = subjectIcons[subject];
                 return (
                   <SelectItem key={subject} value={subject}>
                     <div className="flex items-center gap-2">
-                      <Icon className="h-4 w-4 text-muted-foreground" />
+                      {Icon && <Icon className="h-4 w-4 text-muted-foreground" />}
                       {subject}
                     </div>
                   </SelectItem>

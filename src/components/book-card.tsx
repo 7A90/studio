@@ -33,7 +33,7 @@ export function BookCard({ book }: { book: BookWithImage }) {
         </CardTitle>
         <p className="text-sm text-muted-foreground mt-1">{book.author}</p>
         <div className="flex flex-wrap gap-2 mt-3">
-          <Badge variant="outline">Grade {book.gradeLevel}</Badge>
+          <Badge variant="outline">المستوى {book.gradeLevel}</Badge>
           <Badge variant="secondary">{book.subject}</Badge>
         </div>
       </CardContent>
