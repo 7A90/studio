@@ -1,52 +1,268 @@
 {
   "placeholderImages": [
     {
-      "id": "math-adventure-1",
-      "description": "Cover for 'The Magical Math Adventure'",
-      "imageUrl": "https://images.unsplash.com/photo-1640684518379-b1cae1002131?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYXJ0b29uJTIwbnVtYmVyc3xlbnwwfHx8fDE3NjkwMjQzOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cartoon numbers"
+      "id": "l0-math",
+      "description": "Math book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1754304342490-2fa390075d02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYXRoJTIwYm9va3xlbnwwfHx8fDE3Njg5MjUyMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "math book"
     },
     {
-      "id": "science-explorer-2",
-      "description": "Cover for 'Science Explorers: The Human Body'",
-      "imageUrl": "https://images.unsplash.com/photo-1758876569703-ea9b21463691?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzY2llbmNlJTIwdGV4dGJvb2t8ZW58MHx8fHwxNzY4OTg3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "science textbook"
+      "id": "l0-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1603801571246-be066de0c73b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmFiaWMlMjBjYWxsaWdyYXBoeXxlbnwwfHx8fDE3Njg5OTUyNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arabic calligraphy"
     },
     {
-      "id": "history-time-3",
-      "description": "Cover for 'History Time Travelers: Ancient Egypt'",
-      "imageUrl": "https://images.unsplash.com/photo-1662567797712-7f32376df4de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlZ3lwdGlhbiUyMHB5cmFtaWRzfGVufDB8fHx8MTc2OTAyNDM5NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "egyptian pyramids"
+      "id": "l1-math",
+      "description": "Math book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1659512929113-ff0809f477d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYXRoJTIwdGV4dGJvb2t8ZW58MHx8fHwxNzY5MDMxMjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "math textbook"
     },
     {
-      "id": "reading-fun-4",
-      "description": "Cover for 'Fun with Phonics'",
-      "imageUrl": "https://images.unsplash.com/photo-1565843248736-8c41e6db117b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMHJlYWRpbmd8ZW58MHx8fHwxNzY5MDAwNDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "children reading"
+      "id": "l1-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1738495889460-7f0b0c6414b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcmFiaWMlMjBsZXR0ZXJzfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arabic letters"
     },
     {
-      "id": "galaxy-math-5",
-      "description": "Cover for 'Galaxy Quest: A Math Odyssey'",
-      "imageUrl": "https://images.unsplash.com/photo-1708257105952-ff45589268a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcGFjZSUyMHBsYW5ldHN8ZW58MHx8fHwxNzY5MDI0Mzk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "space planets"
+      "id": "l1-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1723612955177-96010a7a0cc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRoJTIwcHV6emxlfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "math puzzle"
     },
     {
-      "id": "dino-discovery-6",
-      "description": "Cover for 'Dino Discovery'",
-      "imageUrl": "https://images.unsplash.com/photo-1728848447975-dc7f2aad30af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwZGlub3NhdXJ8ZW58MHx8fHwxNzY5MDExNTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cartoon dinosaur"
+      "id": "l1-arabic-activity",
+      "description": "Arabic activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1721491702981-ad0b5dfbd0e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcmFiaWMlMjB3b3Jrc2hlZXR8ZW58MHx8fHwxNzY5MDMxMjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arabic worksheet"
     },
     {
-      "id": "castle-tales-7",
-      "description": "Cover for 'Tales of the Brave Knights'",
-      "imageUrl": "https://images.unsplash.com/photo-1588278183316-7c7a88cc683d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZWRpZXZhbCUyMGNhc3RsZXxlbnwwfHx8fDE3Njg5NjIzNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "medieval castle"
+      "id": "l2-math",
+      "description": "Math book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1747862681946-d74bbc042f08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bnVtYmVycyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzY5MDMxMjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "numbers background"
     },
     {
-      "id": "jungle-journey-8",
-      "description": "Cover for 'Jungle Journey'",
-      "imageUrl": "https://images.unsplash.com/photo-1545137418-4f1e60820cd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxqdW5nbGUlMjBhbmltYWxzfGVufDB8fHx8MTc2OTAyNDM5NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "jungle animals"
+      "id": "l2-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1696513553729-17129c427356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhcmFiaWMlMjBtYW51c2NyaXB0fGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arabic manuscript"
+    },
+    {
+      "id": "l2-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1761546571631-a4d61b55cd2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYXRoJTIwd29ya2Jvb2t8ZW58MHx8fHwxNzY5MDMxMjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "math workbook"
+    },
+    {
+      "id": "l2-arabic-activity",
+      "description": "Arabic activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1721491702981-ad0b5dfbd0e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXJhYmljJTIwZXhlcmNpc2VzfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arabic exercises"
+    },
+    {
+      "id": "l3-civics",
+      "description": "Civics book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1667849921481-9e13c239ee3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnb3Zlcm5tZW50JTIwYnVpbGRpbmd8ZW58MHx8fHwxNzY4OTg4MTc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "government building"
+    },
+    {
+      "id": "l3-english",
+      "description": "English book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1667980432734-0e662dd989c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbmdsaXNoJTIwZGljdGlvbmFyeXxlbnwwfHx8fDE3NjkwMzEyNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "english dictionary"
+    },
+    {
+      "id": "l3-math",
+      "description": "Math book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1554280992-99407b0c0b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnZW9tZXRyeSUyMHNoYXBlc3xlbnwwfHx8fDE3NjkwMzEyNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "geometry shapes"
+    },
+    {
+      "id": "l3-hist-geo",
+      "description": "History and Geography book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1543191878-f6a3e470454e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvbGQlMjBtYXB8ZW58MHx8fHwxNzY5MDI1Njk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "old map"
+    },
+    {
+      "id": "l3-islamic",
+      "description": "Islamic Education book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1592615278448-c3c39a5647b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpc2xhbWljJTIwcGF0dGVybnxlbnwwfHx8fDE3NjkwMDE0MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "islamic pattern"
+    },
+    {
+      "id": "l3-science",
+      "description": "Science book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1595311182166-d63273ddc386?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzY2llbmNlJTIwbGFifGVufDB8fHx8MTc2ODk2Mjc3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science lab"
+    },
+    {
+      "id": "l3-french",
+      "description": "French book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1431274172761-fca41d930114?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlaWZmZWwlMjB0b3dlcnxlbnwwfHx8fDE3NjkwMDkyMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eiffel tower"
+    },
+    {
+      "id": "l3-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1666071083297-601c9b0701a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYmFjdXMlMjBudW1iZXJzfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abacus numbers"
+    },
+    {
+      "id": "l3-french-activity",
+      "description": "French activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1616091216791-a5360b5fc78a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmcmVuY2glMjBjYWZlfGVufDB8fHx8MTc2OTAzMTI2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "french cafe"
+    },
+    {
+      "id": "l3-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1562781481-13eaa3e5413b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmFiaWMlMjBwb2V0cnl8ZW58MHx8fHwxNzY5MDMxMjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arabic poetry"
+    },
+    {
+      "id": "l3-arabic-activity",
+      "description": "Arabic activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1765188989413-b0f07270cd63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d3JpdGluZyUyMHByYWN0aWNlfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "writing practice"
+    },
+    {
+      "id": "l4-amazigh",
+      "description": "Amazigh book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1702631779276-338ee5aed73a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZXJiZXIlMjBwYXR0ZXJufGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "berber pattern"
+    },
+    {
+      "id": "l4-hist-geo",
+      "description": "History and Geography book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1580102488613-fa55ab5de62a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhbmNpZW50JTIwcnVpbnN8ZW58MHx8fHwxNzY5MDA3MDgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ancient ruins"
+    },
+    {
+      "id": "l4-islamic",
+      "description": "Islamic Education book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1637531503341-2841e3604dd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb3NxdWUlMjBkb21lfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mosque dome"
+    },
+    {
+      "id": "l4-science",
+      "description": "Science book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1616398201291-56a3fa55457a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZG5hJTIwc3RyYW5kfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dna strand"
+    },
+    {
+      "id": "l4-civics",
+      "description": "Civics book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1706098633098-9f8e7717143f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21tdW5pdHklMjBwZW9wbGV8ZW58MHx8fHwxNzY5MDAwNDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "community people"
+    },
+    {
+      "id": "l4-math",
+      "description": "Math book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734303-e85757067f28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhbGdlYnJhJTIwZXF1YXRpb25zfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "algebra equations"
+    },
+    {
+      "id": "l4-english",
+      "description": "English book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1650045930107-506727027be3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzaGFrZXNwZWFyZSUyMGJvb2t8ZW58MHx8fHwxNzY5MDMxMjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shakespeare book"
+    },
+    {
+      "id": "l4-french",
+      "description": "French book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1560425946-7d5830202765?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb3V2cmUlMjBtdXNldW18ZW58MHx8fHwxNzY5MDE5ODkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "louvre museum"
+    },
+    {
+      "id": "l4-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1685038955804-3de172e7ff35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWxjdWxhdG9yJTIwcGVuY2lsfGVufDB8fHx8MTc2OTAzMTI2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calculator pencil"
+    },
+    {
+      "id": "l4-arabic-activity",
+      "description": "Arabic activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1720005487692-be6ea3136b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcmFiaWMlMjBncmFtbWFyfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arabic grammar"
+    },
+    {
+      "id": "l4-french-activity",
+      "description": "French activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1677052897316-96629616f903?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmcmVuY2glMjB2b2NhYnVsYXJ5fGVufDB8fHx8MTc2OTAzMTI2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "french vocabulary"
+    },
+    {
+      "id": "l4-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1744957280090-2590b52c8ae4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcmFiaWMlMjBsaXRlcmF0dXJlfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arabic literature"
+    },
+    {
+      "id": "l5-civics",
+      "description": "Civics book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1667420221382-c8c82338c690?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2b3RpbmclMjBib3h8ZW58MHx8fHwxNzY5MDMxMjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "voting box"
+    },
+    {
+      "id": "l5-math",
+      "description": "Math book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734303-e85757067f28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWxjdWx1cyUyMGdyYXBofGVufDB8fHx8MTc2ODk1MTUzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calculus graph"
+    },
+    {
+      "id": "l5-amazigh",
+      "description": "Amazigh book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1720701575003-51dafcf39cb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0aWZpbmFnaCUyMHNjcmlwdHxlbnwwfHx8fDE3NjkwMzEyNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tifinagh script"
+    },
+    {
+      "id": "l5-history",
+      "description": "History book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1765557276218-9fd78c54a475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoaXN0b3JpY2FsJTIwZG9jdW1lbnR8ZW58MHx8fHwxNzY5MDE0NDcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "historical document"
+    },
+    {
+      "id": "l5-islamic",
+      "description": "Islamic Education book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1721744671779-c6ade1bc64df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxxdXJhbiUyMGJvb2t8ZW58MHx8fHwxNzY5MDIxNTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quran book"
+    },
+    {
+      "id": "l5-science",
+      "description": "Science book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1616996691604-26dfd478cbbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGVtaXN0cnklMjBiZWFrZXJzfGVufDB8fHx8MTc2ODk2ODc3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chemistry beakers"
+    },
+    {
+      "id": "l5-geography",
+      "description": "Geography book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1582909186183-2084dd0c45e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0b3BvZ3JhcGhpYyUyMG1hcHxlbnwwfHx8fDE3NjkwMDEwNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "topographic map"
+    },
+    {
+      "id": "l5-french",
+      "description": "French book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1613822363259-0b72ec056ee2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bm90cmUlMjBkYW1lfGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "notre dame"
+    },
+    {
+      "id": "l5-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1758685848612-dc8d3c0e9646?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYXRoJTIwcHJvYmxlbXN8ZW58MHx8fHwxNzY5MDMxMjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "math problems"
+    },
+    {
+      "id": "l5-french-activity",
+      "description": "French activity book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1681403975635-4dd2a45ac4e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmcmVuY2glMjB2ZXJic3xlbnwwfHx8fDE3NjkwMzEyNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "french verbs"
+    },
+    {
+      "id": "l5-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1760484004327-3811a908a001?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYW1vdXMlMjBwb2V0fGVufDB8fHx8MTc2OTAzMTI2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "famous poet"
     }
   ]
 }

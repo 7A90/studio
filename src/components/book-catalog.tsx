@@ -12,16 +12,25 @@ import {
 import { BookCard } from './book-card';
 import { gradeLevels, subjects } from '@/lib/books';
 import type { BookWithImage } from './book-card';
-import { Search, Book, Microscope, Landmark, Scale, Palette, Globe } from 'lucide-react';
+import { Search, Scale, BookOpen, Calculator, FilePen, Users, Languages, Map, Moon, FlaskConical, BookText, Landmark, Globe } from 'lucide-react';
+import type { Book } from '@/lib/books';
 
-type Subject = (typeof subjects)[number];
+type Subject = Book['subject'];
 
 const subjectIcons: Record<Subject, React.ElementType> = {
-  'قراءة': Book,
-  'علوم': Microscope,
-  'تاريخ': Landmark,
   'رياضيات': Scale,
-  'فنون': Palette,
+  'لغة عربية': BookOpen,
+  'أنشطة رياضيات': Calculator,
+  'أنشطة لغة عربية': FilePen,
+  'تربية مدنية': Users,
+  'إنجليزية': Languages,
+  'تاريخ وجغرافيا': Map,
+  'تربية إسلامية': Moon,
+  'تربية علمية': FlaskConical,
+  'لغة فرنسية': Languages,
+  'أنشطة فرنسية': FilePen,
+  'أمازيغية': BookText,
+  'تاريخ': Landmark,
   'جغرافيا': Globe,
 };
 

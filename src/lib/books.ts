@@ -3,94 +3,84 @@ export type Book = {
   title: string;
   author: string;
   gradeLevel: '0' | '1' | '2' | '3' | '4' | '5';
-  subject: 'قراءة' | 'علوم' | 'تاريخ' | 'رياضيات' | 'فنون' | 'جغرافيا';
+  subject: 'رياضيات' | 'لغة عربية' | 'أنشطة رياضيات' | 'أنشطة لغة عربية' | 'تربية مدنية' | 'إنجليزية' | 'تاريخ وجغرافيا' | 'تربية إسلامية' | 'تربية علمية' | 'لغة فرنسية' | 'أنشطة فرنسية' | 'أمازيغية' | 'تاريخ' | 'جغرافيا';
   coverImageId: string;
   googleDriveLink: string;
   content: string; 
 };
 
 export const books: Book[] = [
-  {
-    id: '1',
-    title: 'The Magical Math Adventure',
-    author: 'Dr. Anna Numerica',
-    gradeLevel: '2',
-    subject: 'رياضيات',
-    coverImageId: 'math-adventure-1',
-    googleDriveLink: 'https://docs.google.com/document/d/1B4tN9v4_3q8Sm-5-9zJc-2aL6k8Xo/edit?usp=sharing',
-    content: 'Join Leo and his friends as they discover a magical world where numbers come to life. They learn about addition and subtraction through exciting puzzles and challenges in the land of Arithmetica.'
-  },
-  {
-    id: '2',
-    title: 'Science Explorers: The Human Body',
-    author: 'Prof. Adam Anatomy',
-    gradeLevel: '4',
-    subject: 'علوم',
-    coverImageId: 'science-explorer-2',
-    googleDriveLink: 'https://docs.google.com/document/d/1B4tN9v4_3q8Sm-5-9zJc-2aL6k8Xo/edit?usp=sharing',
-    content: 'A detailed journey inside the human body. This book explains the functions of major organs, the skeletal system, and how our muscles work, all in an easy-to-understand format for young scientists.'
-  },
-  {
-    id: '3',
-    title: 'History Time Travelers: Ancient Egypt',
-    author: 'Cleo Patra',
-    gradeLevel: '5',
-    subject: 'تاريخ',
-    coverImageId: 'history-time-3',
-    googleDriveLink: 'https://docs.google.com/document/d/1B4tN9v4_3q8Sm-5-9zJc-2aL6k8Xo/edit?usp=sharing',
-    content: 'Travel back in time to the age of pharaohs and pyramids. Learn about the daily life of ancient Egyptians, their beliefs, and the great monuments they left behind.'
-  },
-  {
-    id: '4',
-    title: 'Fun with Phonics',
-    author: 'Betty Alphabet',
-    gradeLevel: '1',
-    subject: 'قراءة',
-    coverImageId: 'reading-fun-4',
-    googleDriveLink: 'https://docs.google.com/document/d/1B4tN9v4_3q8Sm-5-9zJc-2aL6k8Xo/edit?usp=sharing',
-    content: 'An interactive book designed to make learning to read fun. Each page introduces new letter sounds with colorful illustrations and simple words, building a strong foundation for reading.'
-  },
-  {
-    id: '5',
-    title: 'Galaxy Quest: A Math Odyssey',
-    author: 'Captain Calculon',
-    gradeLevel: '5',
-    subject: 'رياضيات',
-    coverImageId: 'galaxy-math-5',
-    googleDriveLink: 'https://docs.google.com/document/d/1B4tN9v4_3q8Sm-5-9zJc-2aL6k8Xo/edit?usp=sharing',
-    content: 'Pilot a spaceship through a galaxy of math problems. This book covers multiplication, division, and fractions with a thrilling space adventure theme.'
-  },
-  {
-    id: '6',
-    title: 'Dino Discovery',
-    author: 'Dr. Rex Fossil',
-    gradeLevel: '3',
-    subject: 'علوم',
-    coverImageId: 'dino-discovery-6',
-    googleDriveLink: 'https://docs.google.com/document/d/1B4tN9v4_3q8Sm-5-9zJc-2aL6k8Xo/edit?usp=sharing',
-    content: 'Uncover the secrets of the dinosaurs! This book explores different species of dinosaurs, their habitats, and the world they lived in millions of years ago.'
-  },
-  {
-    id: '7',
-    title: 'Tales of the Brave Knights',
-    author: 'Sir Reginald Storyteller',
-    gradeLevel: '4',
-    subject: 'تاريخ',
-    coverImageId: 'castle-tales-7',
-    googleDriveLink: 'https://docs.google.com/document/d/1B4tN9v4_3q8Sm-5-9zJc-2aL6k8Xo/edit?usp=sharing',
-    content: 'Stories of courage and chivalry from the medieval era. Follow the adventures of brave knights, explore majestic castles, and learn about the code of honor they lived by.'
-  },
-  {
-    id: '8',
-    title: 'Jungle Journey',
-    author: 'Zoe Wild',
-    gradeLevel: '2',
-    subject: 'قراءة',
-    coverImageId: 'jungle-journey-8',
-    googleDriveLink: 'https://docs.google.com/document/d/1B4tN9v4_3q8Sm-5-9zJc-2aL6k8Xo/edit?usp=sharing',
-    content: 'A reading adventure through the dense Amazon rainforest. Meet talking monkeys, colorful parrots, and sleepy sloths while improving reading skills with engaging stories.'
-  }
+  // Level 0
+  { id: 'l0-math', title: 'كتاب الرياضيات', author: 'وزارة التربية', gradeLevel: '0', subject: 'رياضيات', coverImageId: 'l0-math', googleDriveLink: '#', content: 'كتاب الرياضيات للمستوى 0' },
+  { id: 'l0-arabic', title: 'كتاب اللغة العربية', author: 'وزارة التربية', gradeLevel: '0', subject: 'لغة عربية', coverImageId: 'l0-arabic', googleDriveLink: '#', content: 'كتاب اللغة العربية للمستوى 0' },
+
+  // Level 1
+  { id: 'l1-math', title: 'كتاب الرياضيات', author: 'وزارة التربية', gradeLevel: '1', subject: 'رياضيات', coverImageId: 'l1-math', googleDriveLink: '#', content: 'كتاب الرياضيات للمستوى 1' },
+  { id: 'l1-arabic', title: 'كتاب اللغة العربية', author: 'وزارة التربية', gradeLevel: '1', subject: 'لغة عربية', coverImageId: 'l1-arabic', googleDriveLink: '#', content: 'كتاب اللغة العربية للمستوى 1' },
+  { id: 'l1-math-activity', title: 'أنشطة الرياضيات', author: 'وزارة التربية', gradeLevel: '1', subject: 'أنشطة رياضيات', coverImageId: 'l1-math-activity', googleDriveLink: '#', content: 'كتاب أنشطة الرياضيات للمستوى 1' },
+  { id: 'l1-arabic-activity', title: 'أنشطة اللغة العربية', author: 'وزارة التربية', gradeLevel: '1', subject: 'أنشطة لغة عربية', coverImageId: 'l1-arabic-activity', googleDriveLink: '#', content: 'كتاب أنشطة اللغة العربية للمستوى 1' },
+  
+  // Level 2
+  { id: 'l2-math', title: 'كتاب الرياضيات', author: 'وزارة التربية', gradeLevel: '2', subject: 'رياضيات', coverImageId: 'l2-math', googleDriveLink: '#', content: 'كتاب الرياضيات للمستوى 2' },
+  { id: 'l2-arabic', title: 'كتاب اللغة العربية', author: 'وزارة التربية', gradeLevel: '2', subject: 'لغة عربية', coverImageId: 'l2-arabic', googleDriveLink: '#', content: 'كتاب اللغة العربية للمستوى 2' },
+  { id: 'l2-math-activity', title: 'أنشطة الرياضيات', author: 'وزارة التربية', gradeLevel: '2', subject: 'أنشطة رياضيات', coverImageId: 'l2-math-activity', googleDriveLink: '#', content: 'كتاب أنشطة الرياضيات للمستوى 2' },
+  { id: 'l2-arabic-activity', title: 'أنشطة اللغة العربية', author: 'وزارة التربية', gradeLevel: '2', subject: 'أنشطة لغة عربية', coverImageId: 'l2-arabic-activity', googleDriveLink: '#', content: 'كتاب أنشطة اللغة العربية للمستوى 2' },
+
+  // Level 3
+  { id: 'l3-civics', title: 'كتاب التربية المدنية', author: 'وزارة التربية', gradeLevel: '3', subject: 'تربية مدنية', coverImageId: 'l3-civics', googleDriveLink: '#', content: 'كتاب التربية المدنية للمستوى 3' },
+  { id: 'l3-english', title: 'كتاب الإنجليزية', author: 'وزارة التربية', gradeLevel: '3', subject: 'إنجليزية', coverImageId: 'l3-english', googleDriveLink: '#', content: 'كتاب الإنجليزية للمستوى 3' },
+  { id: 'l3-math', title: 'كتاب الرياضيات', author: 'وزارة التربية', gradeLevel: '3', subject: 'رياضيات', coverImageId: 'l3-math', googleDriveLink: '#', content: 'كتاب الرياضيات للمستوى 3' },
+  { id: 'l3-hist-geo', title: 'كتاب التاريخ والجغرافيا', author: 'وزارة التربية', gradeLevel: '3', subject: 'تاريخ وجغرافيا', coverImageId: 'l3-hist-geo', googleDriveLink: '#', content: 'كتاب التاريخ والجغرافيا للمستوى 3' },
+  { id: 'l3-islamic', title: 'كتاب التربية الإسلامية', author: 'وزارة التربية', gradeLevel: '3', subject: 'تربية إسلامية', coverImageId: 'l3-islamic', googleDriveLink: '#', content: 'كتاب التربية الإسلامية للمستوى 3' },
+  { id: 'l3-science', title: 'كتاب التربية العلمية', author: 'وزارة التربية', gradeLevel: '3', subject: 'تربية علمية', coverImageId: 'l3-science', googleDriveLink: '#', content: 'كتاب التربية العلمية للمستوى 3' },
+  { id: 'l3-french', title: 'كتاب اللغة الفرنسية', author: 'وزارة التربية', gradeLevel: '3', subject: 'لغة فرنسية', coverImageId: 'l3-french', googleDriveLink: '#', content: 'كتاب اللغة الفرنسية للمستوى 3' },
+  { id: 'l3-math-activity', title: 'أنشطة الرياضيات', author: 'وزارة التربية', gradeLevel: '3', subject: 'أنشطة رياضيات', coverImageId: 'l3-math-activity', googleDriveLink: '#', content: 'كتاب أنشطة الرياضيات للمستوى 3' },
+  { id: 'l3-french-activity', title: 'أنشطة الفرنسية', author: 'وزارة التربية', gradeLevel: '3', subject: 'أنشطة فرنسية', coverImageId: 'l3-french-activity', googleDriveLink: '#', content: 'كتاب أنشطة الفرنسية للمستوى 3' },
+  { id: 'l3-arabic', title: 'كتاب اللغة العربية', author: 'وزارة التربية', gradeLevel: '3', subject: 'لغة عربية', coverImageId: 'l3-arabic', googleDriveLink: '#', content: 'كتاب اللغة العربية للمستوى 3' },
+  { id: 'l3-arabic-activity', title: 'أنشطة اللغة العربية', author: 'وزارة التربية', gradeLevel: '3', subject: 'أنشطة لغة عربية', coverImageId: 'l3-arabic-activity', googleDriveLink: '#', content: 'كتاب أنشطة اللغة العربية للمستوى 3' },
+
+  // Level 4
+  { id: 'l4-amazigh', title: 'كتاب الأمازيغية', author: 'وزارة التربية', gradeLevel: '4', subject: 'أمازيغية', coverImageId: 'l4-amazigh', googleDriveLink: '#', content: 'كتاب الأمازيغية للمستوى 4' },
+  { id: 'l4-hist-geo', title: 'كتاب التاريخ والجغرافيا', author: 'وزارة التربية', gradeLevel: '4', subject: 'تاريخ وجغرافيا', coverImageId: 'l4-hist-geo', googleDriveLink: '#', content: 'كتاب التاريخ والجغرافيا للمستوى 4' },
+  { id: 'l4-islamic', title: 'كتاب التربية الإسلامية', author: 'وزارة التربية', gradeLevel: '4', subject: 'تربية إسلامية', coverImageId: 'l4-islamic', googleDriveLink: '#', content: 'كتاب التربية الإسلامية للمستوى 4' },
+  { id: 'l4-science', title: 'كتاب التربية العلمية', author: 'وزارة التربية', gradeLevel: '4', subject: 'تربية علمية', coverImageId: 'l4-science', googleDriveLink: '#', content: 'كتاب التربية العلمية للمستوى 4' },
+  { id: 'l4-civics', title: 'كتاب التربية المدنية', author: 'وزارة التربية', gradeLevel: '4', subject: 'تربية مدنية', coverImageId: 'l4-civics', googleDriveLink: '#', content: 'كتاب التربية المدنية للمستوى 4' },
+  { id: 'l4-math', title: 'كتاب الرياضيات', author: 'وزارة التربية', gradeLevel: '4', subject: 'رياضيات', coverImageId: 'l4-math', googleDriveLink: '#', content: 'كتاب الرياضيات للمستوى 4' },
+  { id: 'l4-english', title: 'كتاب الإنجليزية', author: 'وزارة التربية', gradeLevel: '4', subject: 'إنجليزية', coverImageId: 'l4-english', googleDriveLink: '#', content: 'كتاب الإنجليزية للمستوى 4' },
+  { id: 'l4-french', title: 'كتاب اللغة الفرنسية', author: 'وزارة التربية', gradeLevel: '4', subject: 'لغة فرنسية', coverImageId: 'l4-french', googleDriveLink: '#', content: 'كتاب اللغة الفرنسية للمستوى 4' },
+  { id: 'l4-math-activity', title: 'أنشطة الرياضيات', author: 'وزارة التربية', gradeLevel: '4', subject: 'أنشطة رياضيات', coverImageId: 'l4-math-activity', googleDriveLink: '#', content: 'كتاب أنشطة الرياضيات للمستوى 4' },
+  { id: 'l4-arabic-activity', title: 'أنشطة اللغة العربية', author: 'وزارة التربية', gradeLevel: '4', subject: 'أنشطة لغة عربية', coverImageId: 'l4-arabic-activity', googleDriveLink: '#', content: 'كتاب أنشطة اللغة العربية للمستوى 4' },
+  { id: 'l4-french-activity', title: 'أنشطة الفرنسية', author: 'وزارة التربية', gradeLevel: '4', subject: 'أنشطة فرنسية', coverImageId: 'l4-french-activity', googleDriveLink: '#', content: 'كتاب أنشطة الفرنسية للمستوى 4' },
+  { id: 'l4-arabic', title: 'كتاب اللغة العربية', author: 'وزارة التربية', gradeLevel: '4', subject: 'لغة عربية', coverImageId: 'l4-arabic', googleDriveLink: '#', content: 'كتاب اللغة العربية للمستوى 4' },
+
+  // Level 5
+  { id: 'l5-civics', title: 'كتاب التربية المدنية', author: 'وزارة التربية', gradeLevel: '5', subject: 'تربية مدنية', coverImageId: 'l5-civics', googleDriveLink: '#', content: 'كتاب التربية المدنية للمستوى 5' },
+  { id: 'l5-math', title: 'كتاب الرياضيات', author: 'وزارة التربية', gradeLevel: '5', subject: 'رياضيات', coverImageId: 'l5-math', googleDriveLink: '#', content: 'كتاب الرياضيات للمستوى 5' },
+  { id: 'l5-amazigh', title: 'كتاب الأمازيغية', author: 'وزارة التربية', gradeLevel: '5', subject: 'أمازيغية', coverImageId: 'l5-amazigh', googleDriveLink: '#', content: 'كتاب الأمازيغية للمستوى 5' },
+  { id: 'l5-history', title: 'كتاب التاريخ', author: 'وزارة التربية', gradeLevel: '5', subject: 'تاريخ', coverImageId: 'l5-history', googleDriveLink: '#', content: 'كتاب التاريخ للمستوى 5' },
+  { id: 'l5-islamic', title: 'كتاب التربية الإسلامية', author: 'وزارة التربية', gradeLevel: '5', subject: 'تربية إسلامية', coverImageId: 'l5-islamic', googleDriveLink: '#', content: 'كتاب التربية الإسلامية للمستوى 5' },
+  { id: 'l5-science', title: 'كتاب التربية العلمية', author: 'وزارة التربية', gradeLevel: '5', subject: 'تربية علمية', coverImageId: 'l5-science', googleDriveLink: '#', content: 'كتاب التربية العلمية للمستوى 5' },
+  { id: 'l5-geography', title: 'كتاب الجغرافيا', author: 'وزارة التربية', gradeLevel: '5', subject: 'جغرافيا', coverImageId: 'l5-geography', googleDriveLink: '#', content: 'كتاب الجغرافيا للمستوى 5' },
+  { id: 'l5-french', title: 'كتاب اللغة الفرنسية', author: 'وزارة التربية', gradeLevel: '5', subject: 'لغة فرنسية', coverImageId: 'l5-french', googleDriveLink: '#', content: 'كتاب اللغة الفرنسية للمستوى 5' },
+  { id: 'l5-math-activity', title: 'أنشطة الرياضيات', author: 'وزارة التربية', gradeLevel: '5', subject: 'أنشطة رياضيات', coverImageId: 'l5-math-activity', googleDriveLink: '#', content: 'كتاب أنشطة الرياضيات للمستوى 5' },
+  { id: 'l5-french-activity', title: 'أنشطة الفرنسية', author: 'وزارة التربية', gradeLevel: '5', subject: 'أنشطة فرنسية', coverImageId: 'l5-french-activity', googleDriveLink: '#', content: 'كتاب أنشطة الفرنسية للمستوى 5' },
+  { id: 'l5-arabic', title: 'كتاب اللغة العربية', author: 'وزارة التربية', gradeLevel: '5', subject: 'لغة عربية', coverImageId: 'l5-arabic', googleDriveLink: '#', content: 'كتاب اللغة العربية للمستوى 5' },
 ];
 
 export const gradeLevels = ['0', '1', '2', '3', '4', '5'];
-export const subjects: Array<Book['subject']> = ['قراءة', 'علوم', 'تاريخ', 'رياضيات', 'فنون', 'جغرافيا'];
+export const subjects: Array<Book['subject']> = [
+  'رياضيات',
+  'لغة عربية',
+  'أنشطة رياضيات',
+  'أنشطة لغة عربية',
+  'تربية مدنية',
+  'إنجليزية',
+  'تاريخ وجغرافيا',
+  'تربية إسلامية',
+  'تربية علمية',
+  'لغة فرنسية',
+  'أنشطة فرنسية',
+  'أمازيغية',
+  'تاريخ',
+  'جغرافيا'
+];
