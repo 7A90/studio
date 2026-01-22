@@ -3,13 +3,13 @@
     {
       "id": "l0-math",
       "description": "Math book cover",
-      "imageUrl": "https://images.unsplash.com/photo-1754304342490-2fa390075d02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYXRoJTIwYm9va3xlbnwwfHx8fDE3Njg5MjUyMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.imgur.com/03in1G1.png",
       "imageHint": "math book"
     },
     {
       "id": "l0-arabic",
       "description": "Arabic book cover",
-      "imageUrl": "https://images.unsplash.com/photo-1603801571246-be066de0c73b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmFiaWMlMjBjYWxsaWdyYXBoeXxlbnwwfHx8fDE3Njg5OTUyNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.imgur.com/630OA9p.png",
       "imageHint": "arabic calligraphy"
     },
     {
@@ -231,7 +231,7 @@
     {
       "id": "l5-science",
       "description": "Science book cover",
-      "imageUrl": "https://images.unsplash.com/photo-1616996691604-26dfd478cbbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGVtaXN0cnklMjBiZWFrZXJzfGVufDB8fHx8MTc2ODk2ODc3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616996691604-26dfd478cbbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGVtaXN0cnklMjBiZWFrZXJzfGVufDB8fHx8MTc2ODk2ODc3NHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "chemistry beakers"
     },
     {
