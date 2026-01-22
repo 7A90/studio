@@ -40,7 +40,7 @@ export function BookCard({ book }: { book: BookWithImage }) {
       </CardContent>
       <CardFooter className="p-4 pt-0">
         <Button asChild className="w-full bg-primary/90 hover:bg-primary text-primary-foreground">
-          <a href={book.googleDriveLink} target="_blank" rel="noopener noreferrer">
+          <a href={book.googleDriveLink}>
             <BookOpenCheck className="mr-2 h-4 w-4" /> تصفح الآن
           </a>
         </Button>
