@@ -1,7 +1,5 @@
-
 'use client';
 
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import {
   Dialog,
@@ -13,7 +11,6 @@ import {
 import type { BookWithImage } from './book-card';
 
 export function BookSummaryDialog({ book }: { book: BookWithImage }) {
-
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -21,12 +18,15 @@ export function BookSummaryDialog({ book }: { book: BookWithImage }) {
           تصفح الآن
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-w-3xl h-[90vh]">
-        <DialogHeader>
+      <DialogContent className="max-w-7xl w-full h-[95vh] flex flex-col p-0">
+        <DialogHeader className="p-6 pb-2">
           <DialogTitle className="font-headline">{book.title}</DialogTitle>
         </DialogHeader>
-        <div className="h-full">
-            <iframe src={book.googleDriveLink} className="w-full h-full" />
+        <div className="flex-grow">
+          <iframe
+            src={book.googleDriveLink}
+            className="w-full h-full border-0"
+          />
         </div>
       </DialogContent>
     </Dialog>
