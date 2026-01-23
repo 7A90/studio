@@ -6,57 +6,31 @@ import type { Book } from '@/lib/books';
 import { Footer } from '@/components/footer';
 
 export default async function Home() {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  if (!supabaseUrl || !supabaseAnonKey || !supabaseUrl.trim() || !supabaseAnonKey.trim()) {
-    return (
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <main className="flex-grow container mx-auto p-4 md:p-8">
-          <div className="text-center py-16 px-4 bg-card rounded-lg border border-dashed border-destructive">
-            <h3 className="text-xl font-semibold text-destructive">إعدادات Supabase غير موجودة</h3>
-            <p className="text-muted-foreground mt-2">
-              لم يتم إعداد عنوان URL الخاص بـ Supabase والمفتاح المجهول.
-            </p>
-            <p className="text-muted-foreground mt-2">
-              يرجى إضافة ما يلي إلى ملف <code className="font-mono p-1 bg-muted rounded">.env</code> الخاص بك:
-            </p>
-            <pre className="mt-4 p-4 bg-muted rounded-md text-left overflow-x-auto">
-              <code className="text-sm">
-                {`NEXT_PUBLIC_SUPABASE_URL=your_project_url\nNEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_public_key`}
-              </code>
-            </pre>
-            <p className="text-sm text-muted-foreground mt-4">
-              يمكنك العثور على هذه القيم في إعدادات مشروع Supabase الخاص بك تحت الإعدادات &gt; API.
-            </p>
-          </div>
-        </main>
-        <Footer />
-      </div>
-    );
+  // NOTE: This is a placeholder for where you would fetch your books from a database.
+  // This application is not connected to a database, so we are using a static list of books.
+  const books: Book[] = [
+  {
+    "id": "1",
+    "title": "كتاب الرياضيات للسنة الأولى ابتدائي",
+    "author": "وزارة التربية الوطنية",
+    "gradeLevel": "1",
+    "subject": "رياضيات",
+    "coverImageId": "placeholder-1",
+    "googleDriveLink": "https://example.com/book1",
+    "content": ""
+  },
+  {
+    "id": "2",
+    "title": "كتاب اللغة العربية للسنة الأولى ابتدائي",
+    "author": "وزارة التربية الوطنية",
+    "gradeLevel": "1",
+    "subject": "لغة عربية",
+    "coverImageId": "placeholder-2",
+    "googleDriveLink": "https://example.com/book2",
+    "content": ""
   }
+];
 
-  const { supabase } = await import('@/lib/supabase/client');
-  const { data: books, error } = await supabase.from('books').select('*');
-
-  if (error) {
-    return (
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <main className="flex-grow container mx-auto p-4 md:p-8">
-          <div className="text-center py-16 px-4 bg-card rounded-lg border border-dashed border-destructive">
-            <h3 className="text-xl font-semibold text-destructive">فشل تحميل الكتب</h3>
-            <p className="text-muted-foreground mt-2">
-              تعذر جلب البيانات من قاعدة البيانات. يرجى التحقق من إعدادات Supabase الخاصة بك.
-            </p>
-            <p className="text-sm text-muted-foreground mt-2">({error.message})</p>
-          </div>
-        </main>
-        <Footer />
-      </div>
-    );
-  }
 
   const booksWithImages: BookWithImage[] = (books as Book[]).map(book => {
     const placeholder = PlaceHolderImages.find(p => p.id === book.coverImageId);
