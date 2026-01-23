@@ -4,33 +4,10 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import type { BookWithImage } from '@/components/book-card';
 import type { Book } from '@/lib/books';
 import { Footer } from '@/components/footer';
+import { books as allBooks } from '@/lib/all-books';
 
 export default async function Home() {
-  // NOTE: This is a placeholder for where you would fetch your books from a database.
-  // This application is not connected to a database, so we are using a static list of books.
-  const books: Book[] = [
-  {
-    "id": "1",
-    "title": "كتاب الرياضيات للسنة الأولى ابتدائي",
-    "author": "وزارة التربية الوطنية",
-    "gradeLevel": "1",
-    "subject": "رياضيات",
-    "coverImageId": "placeholder-1",
-    "googleDriveLink": "https://example.com/book1",
-    "content": ""
-  },
-  {
-    "id": "2",
-    "title": "كتاب اللغة العربية للسنة الأولى ابتدائي",
-    "author": "وزارة التربية الوطنية",
-    "gradeLevel": "1",
-    "subject": "لغة عربية",
-    "coverImageId": "placeholder-2",
-    "googleDriveLink": "https://example.com/book2",
-    "content": ""
-  }
-];
-
+  const books: Book[] = allBooks;
 
   const booksWithImages: BookWithImage[] = (books as Book[]).map(book => {
     const placeholder = PlaceHolderImages.find(p => p.id === book.coverImageId);
