@@ -109,9 +109,9 @@ export function BookCatalog({ books }: { books: BookWithImage[] }) {
         </div>
       ) : (
         <div className="text-center py-16 px-4 bg-card rounded-lg border border-dashed">
-          <h3 className="text-xl font-semibold">No Books Found</h3>
+          <h3 className="text-xl font-semibold">لم يتم العثور على كتب</h3>
           <p className="text-muted-foreground mt-2">
-            Try adjusting your search or filter settings.
+            حاول تعديل إعدادات البحث أو التصفية.
           </p>
         </div>
       )}
