@@ -7,9 +7,8 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
-import { BookOpenCheck } from 'lucide-react';
 import type { Book } from '@/lib/books';
+import { BookSummaryDialog } from './book-summary-dialog';
 
 export type BookWithImage = Book & { coverImageUrl: string, imageHint: string };
 
@@ -39,11 +38,7 @@ export function BookCard({ book }: { book: BookWithImage }) {
         </div>
       </CardContent>
       <CardFooter className="p-4 pt-0">
-        <Button asChild className="w-full bg-primary/90 hover:bg-primary text-primary-foreground">
-          <a href={book.googleDriveLink}>
-            <BookOpenCheck className="mr-2 h-4 w-4" /> تصفح الآن
-          </a>
-        </Button>
+        <BookSummaryDialog book={book} />
       </CardFooter>
     </Card>
   );
